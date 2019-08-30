@@ -237,6 +237,7 @@ types::ID types::lookupTypeForExtension(llvm::StringRef Ext) {
            .Case("cp", TY_CXX)
            .Case("cu", TY_CUDA)
            .Case("hh", TY_CXXHeader)
+           .Case("inl", TY_CXXHeader)
            .Case("ii", TY_PP_CXX)
            .Case("ll", TY_LLVM_IR)
            .Case("mi", TY_PP_ObjC)
